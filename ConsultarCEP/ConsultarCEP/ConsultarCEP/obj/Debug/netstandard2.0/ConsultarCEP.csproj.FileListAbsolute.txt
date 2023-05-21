@@ -1,0 +1,15 @@
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\bin\Debug\netstandard2.0\ConsultarCEP.deps.json
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\bin\Debug\netstandard2.0\ConsultarCEP.dll
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\bin\Debug\netstandard2.0\ConsultarCEP.pdb
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.csproj.AssemblyReference.cache
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.GeneratedMSBuildEditorConfig.editorconfig
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.AssemblyInfoInputs.cache
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.AssemblyInfo.cs
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.csproj.CoreCompileInputs.cache
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.dll
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\refint\ConsultarCEP.dll
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ConsultarCEP.pdb
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP\obj\Debug\netstandard2.0\ref\ConsultarCEP.dll
