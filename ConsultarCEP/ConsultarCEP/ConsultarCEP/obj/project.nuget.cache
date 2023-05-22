@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8E9RcR0z5nB9YUvEtHtq441gmQgkDEtilxyFevO5YOVa+wDNVbSa0s/pnx5e1U3caSahzWY6HKZ2maZpTu6auw==",
+  "dgSpecHash": "ufg09CCrAvshrW0c0qOlz45VqF4IZEWqhmWDXDnj3dOxxtNTDKVm12BRnF7udG1QRhC4NTc9DNVdb8ygzYzIWg==",
   "success": true,
   "projectFilePath": "E:\\Xamarin\\ConsultarCep\\ConsultarCEP\\ConsultarCEP\\ConsultarCEP\\ConsultarCEP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\glebs\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\glebs\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\glebs\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\glebs\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\glebs\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\glebs\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
