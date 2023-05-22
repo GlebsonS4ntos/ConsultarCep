@@ -9,7 +9,7 @@ namespace ConsultarCEP.Services
 {
     public class ViaCepService
     {
-        private static string Url = "viacep.com.br/ws/{0}/json";
+        private static string Url = "https://viacep.com.br/ws/{0}/json/";
 
         public static Endereco BuscarEnderecoPorCep(string cep)
         {

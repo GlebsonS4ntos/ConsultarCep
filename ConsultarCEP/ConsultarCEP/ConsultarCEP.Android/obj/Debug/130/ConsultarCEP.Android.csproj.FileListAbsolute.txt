@@ -636,3 +636,5 @@ E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug
 E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug\130\res\drawable\logo.png
+E:\Xamarin\ConsultarCep\ConsultarCEP\ConsultarCEP\ConsultarCEP.Android\obj\Debug\130\android\assets\Newtonsoft.Json.dll
