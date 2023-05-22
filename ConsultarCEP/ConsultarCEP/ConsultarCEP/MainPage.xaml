@@ -5,8 +5,8 @@
 
     <StackLayout BackgroundColor="#ffbf00" Padding="30" Spacing="30">
         <Image Source="Logo.png" />
-        <Entry Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#fff" x:Name="CEP_DIGITADO"/>
-        <Button Text="Buscar CEP" TextColor="#ffffff" BackgroundColor="#00416B" x:Name="BOTAO"/>
+        <Entry Placeholder="Digite o CEP" PlaceholderColor="#ffbf00" BackgroundColor="#fff" x:Name="CEP_DIGITADO" Completed="ExecultarBuscaCep"/>
+        <Button Text="Buscar CEP" TextColor="#ffffff" BackgroundColor="#00416B" x:Name="BOTAO" Clicked="ExecultarBuscaCep"/>
         
         <Label x:Name="LOGRADOURO" HorizontalOptions="Center" VerticalOptions="Center"/>
         <Label x:Name="BAIRRO" HorizontalOptions="Center" VerticalOptions="Center"/>

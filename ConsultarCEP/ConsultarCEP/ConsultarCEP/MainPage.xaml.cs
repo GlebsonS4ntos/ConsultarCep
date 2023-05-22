@@ -16,24 +16,38 @@ namespace ConsultarCEP
         {
             InitializeComponent();
 
-            BOTAO.Clicked += ExecultarBuscaCep;
-
         }
 
         private void ExecultarBuscaCep(Object sender, EventArgs args)
         {
-
+            CEP_DIGITADO.Unfocus();
             if (CepIsValid(CEP_DIGITADO.Text.Trim()))
             {
-                Endereco end = ViaCepService.BuscarEnderecoPorCep(CEP_DIGITADO.Text.Trim());
+                try
+                {
+                    Endereco end = ViaCepService.BuscarEnderecoPorCep(CEP_DIGITADO.Text.Trim());
 
-                CEP_DIGITADO.Text = "";
+                    if (end != null)
+                    {
+                        CEP_DIGITADO.Text = "";
 
-                LOGRADOURO.Text = String.IsNullOrEmpty(end.logradouro) ? "LOGRADOURO: Não Encontrado" : $"LOGRADOURO: {end.logradouro}";
-                BAIRRO.Text = String.IsNullOrEmpty(end.bairro) ? "BAIRRO: Não Encontrado" : $"BAIRRO: {end.bairro}";
-                LOCALIDADE.Text = $"LOCALIDADE: {end.localidade}";
-                UF.Text = $"UF: {end.uf}";
-                CEP.Text = $"CEP: {end.cep}";
+                        LOGRADOURO.Text = String.IsNullOrEmpty(end.logradouro) ? "LOGRADOURO: Não Encontrado" : $"LOGRADOURO: {end.logradouro}";
+                        BAIRRO.Text = String.IsNullOrEmpty(end.bairro) ? "BAIRRO: Não Encontrado" : $"BAIRRO: {end.bairro}";
+                        LOCALIDADE.Text = $"LOCALIDADE: {end.localidade}";
+                        UF.Text = $"UF: {end.uf}";
+                        CEP.Text = $"CEP: {end.cep}";
+                    }
+                    else
+                    {
+                        LimparCamposEndereco();
+                        DisplayAlert("Erro", "O endereço não foi encontrado para o CEP informado !", "OK");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    LimparCamposEndereco();
+                    DisplayAlert("Erro", "Infelizmente ocorreu um erro, tente novamente mais tarde.", "Ok");
+                }
             }
         }
 
@@ -52,6 +66,15 @@ namespace ConsultarCEP
             }
 
             return true;
+        }
+
+        private void LimparCamposEndereco()
+        {
+            LOGRADOURO.Text = "";
+            BAIRRO.Text = "";
+            LOCALIDADE.Text = "";
+            UF.Text = "";
+            CEP.Text = "";
         }
     }
 }
